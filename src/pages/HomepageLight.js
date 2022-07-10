@@ -30,7 +30,7 @@ function HomepageLight() {
     <>
       <Header
         light
-        logoSource="/images/logo-dark.svg"
+        logoSource="./paifolio/images/logo-dark.svg"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

@@ -3,7 +3,7 @@ import Pagetitle from '../elements/Pagetitle';
 
 const aboutContent = {
   name: 'Pablo Alvarez Imaz',
-  avatarImage: '/images/alvarezimazpablo-about.png',
+  avatarImage: './paifolio/images/alvarezimazpablo-about.png',
   content:
     'I am Pablo Alvarez Imaz, a software developer based in Melbourne, Australia. A tech lover with a background in Education and Philosophy, I love to explore and face new challenges.',
 };
@@ -28,7 +28,7 @@ function About() {
                 <p>{aboutContent.content}</p>
                 <div className="mt-3">
                   <a
-                    href="/files/Alvarez_Imaz_Pablo_resume_221007.pdf"
+                    href="/paifolio/files/Alvarez_Imaz_Pablo_resume_221007.pdf"
                     target="_blank"
                     className="btn btn-default"
                   >

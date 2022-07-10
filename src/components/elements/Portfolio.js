@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
+import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link } = portfolio;
+  const { category, title, image, popupLink, link, description, techstack } =
+    portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -12,27 +13,27 @@ function Portfolio({ portfolio }) {
     }
   };
 
-  const handleIcon = () => {
-    if (link) {
-      return <i className="icon-link"></i>;
-    } else if (popupLink) {
-      if (popupLink.length > 1) {
-        if (popupLink.toString().match(/youtube/g)) {
-          return <i className="icon-camrecorder"></i>;
-        }
-        return <i className="icon-picture"></i>;
-      } else if (popupLink.toString().match(/youtube/g)) {
-        return <i className="icon-camrecorder"></i>;
-      } else {
-        return <i className="icon-magnifier-add"></i>;
-      }
-    }
-    return <i className="icon-magnifier-add"></i>;
-  };
+  // const handleIcon = () => {
+  //   if (link) {
+  //     return <i className="icon-link"></i>;
+  //   } else if (popupLink) {
+  //     if (popupLink.length > 1) {
+  //       if (popupLink.toString().match(/youtube/g)) {
+  //         return <i className="icon-camrecorder"></i>;
+  //       }
+  //       return <i className="icon-picture"></i>;
+  //     } else if (popupLink.toString().match(/youtube/g)) {
+  //       return <i className="icon-camrecorder"></i>;
+  //     } else {
+  //       return <i className="icon-magnifier-add"></i>;
+  //     }
+  //   }
+  //   return <i className="icon-magnifier-add"></i>;
+  // };
   return (
     <>
       <a
-        href={link ? link : "!#"}
+        href={link ? link : '!#'}
         className="work-image"
         onClick={handleLightbox}
       >
@@ -40,7 +41,12 @@ function Portfolio({ portfolio }) {
           <div className="details">
             <span className="term text-capitalize">{category}</span>
             <h4 className="title">{title}</h4>
-            <span className="more-button">{handleIcon()}</span>
+            <p className="description">
+              {description}
+              <br />
+              <b>Tech stack: </b>
+              {techstack}
+            </p>
           </div>
           <div className="thumb">
             <img src={image} alt="Portfolio-title" />
@@ -48,7 +54,6 @@ function Portfolio({ portfolio }) {
           </div>
         </div>
       </a>
-      {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
     </>
   );
 }
