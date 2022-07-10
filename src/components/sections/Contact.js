@@ -66,7 +66,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="Get in Touch..." />
 
         <div className="row">
           <div className="col-md-4">
@@ -76,7 +76,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>I will reply back as humanly possible.</h3>
+                <h3>And I will get right back at you ASAP.</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
