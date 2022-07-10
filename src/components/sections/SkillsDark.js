@@ -5,18 +5,18 @@ const skillSet = [
   {
     id: 1,
     alt: 'css',
-    image: './paifolio/images/skill-css3.svg',
+    image: './images/skill-css3.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 2,
     alt: 'html',
-    image: './paifolio/images/skill-html.png',
+    image: './images/skill-html.png',
     url: 'https://www.w3schools.com/html/',
   },
   {
     id: 3,
-    image: './paifolio/images/skill-js.png',
+    image: './images/skill-js.png',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   // jquery

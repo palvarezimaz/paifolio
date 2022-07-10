@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/paifolio/static/css/main.840cd1a3.chunk.css",
-    "main.js": "/paifolio/static/js/main.822d5a8e.chunk.js",
-    "main.js.map": "/paifolio/static/js/main.822d5a8e.chunk.js.map",
-    "runtime-main.js": "/paifolio/static/js/runtime-main.d3345105.js",
-    "runtime-main.js.map": "/paifolio/static/js/runtime-main.d3345105.js.map",
-    "static/css/2.2566ec09.chunk.css": "/paifolio/static/css/2.2566ec09.chunk.css",
-    "static/js/2.4b8c22dd.chunk.js": "/paifolio/static/js/2.4b8c22dd.chunk.js",
-    "static/js/2.4b8c22dd.chunk.js.map": "/paifolio/static/js/2.4b8c22dd.chunk.js.map",
-    "index.html": "/paifolio/index.html",
-    "static/css/2.2566ec09.chunk.css.map": "/paifolio/static/css/2.2566ec09.chunk.css.map",
-    "static/css/main.840cd1a3.chunk.css.map": "/paifolio/static/css/main.840cd1a3.chunk.css.map",
-    "static/js/2.4b8c22dd.chunk.js.LICENSE.txt": "/paifolio/static/js/2.4b8c22dd.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/paifolio/static/media/map.0d7639e8.svg",
-    "static/media/slick-theme.css": "/paifolio/static/media/slick.c94f7671.ttf"
+    "main.css": "/static/css/main.004ab668.chunk.css",
+    "main.js": "/static/js/main.909c65a8.chunk.js",
+    "main.js.map": "/static/js/main.909c65a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0037d1b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0037d1b.js.map",
+    "static/css/2.fee89144.chunk.css": "/static/css/2.fee89144.chunk.css",
+    "static/js/2.663e3eff.chunk.js": "/static/js/2.663e3eff.chunk.js",
+    "static/js/2.663e3eff.chunk.js.map": "/static/js/2.663e3eff.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fee89144.chunk.css.map": "/static/css/2.fee89144.chunk.css.map",
+    "static/css/main.004ab668.chunk.css.map": "/static/css/main.004ab668.chunk.css.map",
+    "static/js/2.663e3eff.chunk.js.LICENSE.txt": "/static/js/2.663e3eff.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/map.0d7639e8.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3345105.js",
-    "static/css/2.2566ec09.chunk.css",
-    "static/js/2.4b8c22dd.chunk.js",
-    "static/css/main.840cd1a3.chunk.css",
-    "static/js/main.822d5a8e.chunk.js"
+    "static/js/runtime-main.a0037d1b.js",
+    "static/css/2.fee89144.chunk.css",
+    "static/js/2.663e3eff.chunk.js",
+    "static/css/main.004ab668.chunk.css",
+    "static/js/main.909c65a8.chunk.js"
   ]
 }

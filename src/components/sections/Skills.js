@@ -4,42 +4,42 @@ import Pagetitle from '../elements/Pagetitle';
 const skillSet = [
   {
     id: 1,
-    image: './paifolio/images/skill-css3.svg',
+    image: './images/skill-css3.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 2,
-    image: './paifolio/images/client-2.svg',
+    image: './images/client-2.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 3,
-    image: './paifolio/images/client-3.svg',
+    image: './images/client-3.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 4,
-    image: './paifolio/images/client-4.svg',
+    image: './images/client-4.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 5,
-    image: './paifolio/images/client-5.svg',
+    image: './images/client-5.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 6,
-    image: './paifolio/images/client-6.svg',
+    image: './images/client-6.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 7,
-    image: './paifolio/images/client-7.svg',
+    image: './images/client-7.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 8,
-    image: './paifolio/images/client-8.svg',
+    image: './images/client-8.svg',
     url: 'https://www.w3schools.com/css/',
   },
 ];

@@ -26,7 +26,7 @@ function Homepage() {
   return (
     <>
       <Header
-        logoSource="./paifolio/images/logo.png"
+        logoSource="./images/logo.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
