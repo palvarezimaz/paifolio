@@ -51,9 +51,9 @@ function HomepageLight() {
           <Projects />
         </Element>
 
-        <Element name="section-History">
+        {/* <Element name="section-History">
           <History />
-        </Element>
+        </Element> */}
 
         <Element name="section-contact">
           <Contact />

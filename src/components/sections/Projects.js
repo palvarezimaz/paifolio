@@ -25,7 +25,7 @@ const allData = [
     id: 2,
     title: 'Sweeter, a tweeter clone',
     category: 'GA project',
-    image: './paifolio/images/Projects/3-sweeter.png',
+    image: './paifolio/images/Projects/3-sweeter-clone.png',
     description: 'SPA App',
     techstack: 'JS, Express, PostgreSQL',
     popupLink: 'https://sweetersocialmedia.herokuapp.com/',

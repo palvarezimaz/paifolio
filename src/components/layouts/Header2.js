@@ -75,7 +75,7 @@ function Header2({ light, logoSource, toggleMenu, headerToggler }) {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="section-History"
@@ -85,7 +85,7 @@ function Header2({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-graduation"></i>
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link
