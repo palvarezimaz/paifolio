@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/paifolio/static/css/main.840cd1a3.chunk.css",
+    "main.js": "/paifolio/static/js/main.b5370f3f.chunk.js",
+    "main.js.map": "/paifolio/static/js/main.b5370f3f.chunk.js.map",
+    "runtime-main.js": "/paifolio/static/js/runtime-main.d3345105.js",
+    "runtime-main.js.map": "/paifolio/static/js/runtime-main.d3345105.js.map",
+    "static/css/2.2566ec09.chunk.css": "/paifolio/static/css/2.2566ec09.chunk.css",
+    "static/js/2.8930e379.chunk.js": "/paifolio/static/js/2.8930e379.chunk.js",
+    "static/js/2.8930e379.chunk.js.map": "/paifolio/static/js/2.8930e379.chunk.js.map",
+    "index.html": "/paifolio/index.html",
+    "static/css/2.2566ec09.chunk.css.map": "/paifolio/static/css/2.2566ec09.chunk.css.map",
+    "static/css/main.840cd1a3.chunk.css.map": "/paifolio/static/css/main.840cd1a3.chunk.css.map",
+    "static/js/2.8930e379.chunk.js.LICENSE.txt": "/paifolio/static/js/2.8930e379.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/paifolio/static/media/map.0d7639e8.svg",
+    "static/media/slick-theme.css": "/paifolio/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3345105.js",
+    "static/css/2.2566ec09.chunk.css",
+    "static/js/2.8930e379.chunk.js",
+    "static/css/main.840cd1a3.chunk.css",
+    "static/js/main.b5370f3f.chunk.js"
+  ]
+}

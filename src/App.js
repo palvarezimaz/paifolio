@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import HomepageLight from './pages/HomepageLight';
 import HomepageDark from './pages/HomepageDark';
@@ -8,7 +8,7 @@ import './App.scss';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact>
           <HomepageDark />
@@ -20,7 +20,7 @@ function App() {
           <HomepageLight />
         </Route>
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
