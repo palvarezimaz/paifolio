@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Homepage from './pages/Homepage';
+// import Homepage from './pages/Homepage';
 import HomepageLight from './pages/HomepageLight';
 import HomepageDark from './pages/HomepageDark';
 

@@ -4,67 +4,109 @@ import Pagetitle from '../elements/Pagetitle';
 const skillSet = [
   {
     id: 1,
-    alt: 'css',
+    alt: 'CSS',
     image: './images/skill-css3.svg',
     url: 'https://www.w3schools.com/css/',
   },
   {
     id: 2,
-    alt: 'html',
+    alt: 'HTML',
     image: './images/skill-html.png',
     url: 'https://www.w3schools.com/html/',
   },
   {
     id: 3,
+    alt: 'JS',
     image: './images/skill-js.png',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
-  // jquery
-  // node
-  // express
-  // react
-  //socket.io
-  //postman
-  // jest
-  // ruby
-  // minitest
-  // git
-  // github
-  // postgreSQL
-  //
-  // heroku
-  // surge
-
   {
     id: 4,
     alt: 'jQuery',
-    image: 'images/client-4-light.svg',
-    url: 'https://www.w3schools.com/css/',
+    image: './images/skill-jquery.png',
+    url: 'https://jquery.com/',
   },
   {
     id: 5,
-    alt: 'Node.js',
-    image: 'images/client-5-light.svg',
-    url: 'https://www.w3schools.com/css/',
+    alt: 'NodeJS',
+    image: './images/skill-nodejs.svg',
+    url: 'https://nodejs.org',
   },
   {
     id: 6,
-    alt: 'ExpressJs',
-    image: 'images/client-6-light.svg',
-    url: 'https://www.w3schools.com/css/',
+    alt: 'ExpressJS',
+    image: './images/skill-expressJS.svg',
+    url: 'https://expressjs.com',
   },
   {
     id: 7,
-    alt: 'React',
-    image: 'images/client-7-light.svg',
-    url: 'https://www.w3schools.com/css/',
+    alt: 'ReactJS',
+    image: './images/skill-react.svg',
+    url: 'https://reactjs.org/',
   },
   {
     id: 8,
-    alt: '',
-    image: 'images/client-8-light.svg',
-    url: 'https://www.w3schools.com/css/',
+    alt: 'Socket.io',
+    image: './images/skill-socketio.svg',
+    url: 'https://socket.io/',
   },
+  {
+    id: 9,
+    alt: 'Postman',
+    image: './images/skill-postman.png',
+    url: 'https://postman.com',
+  },
+  {
+    id: 10,
+    alt: 'JestJS',
+    image: './images/skill-jestj.svg',
+    url: 'https://jestjs.io',
+  },
+  {
+    id: 11,
+    alt: 'Ruby',
+    image: './images/skill-ruby.svg',
+    url: 'https://www.ruby-lang.org/en',
+  },
+  {
+    id: 12,
+    alt: 'PostgreSQL',
+    image: './images/skill-postgresql.svg',
+    url: 'https://www.postgresql.org',
+  },
+  {
+    id: 13,
+    alt: 'Git',
+    image: './images/skill-git.svg',
+    url: 'https://git-scm.com/',
+  },
+  {
+    id: 14,
+    alt: 'GitHub',
+    image: './images/skill-github.svg',
+    url: 'https://github.com/',
+  },
+  {
+    id: 15,
+    alt: 'Docker',
+    image: './images/skill-docker.png',
+    url: 'https://www.docker.com/',
+  },
+  {
+    id: 16,
+    alt: 'Heroku',
+    image: './images/skill-heroku.svg',
+    url: 'https://heroku.com',
+  },
+  {
+    id: 17,
+    alt: 'Surge',
+    image: './images/skill-surge3.svg',
+    url: 'https://surge.sh/',
+  },
+
+  // heroku - https://heroku.com
+  // surge - https://surge.sh/
 ];
 
 function SkillsDark() {
