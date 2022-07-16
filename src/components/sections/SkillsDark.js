@@ -118,11 +118,7 @@ function SkillsDark() {
           {skillSet.map((skill) => (
             <div className="col-md-2 col-2" key={skill.id}>
               <div className="skill-item">
-                <a
-                  href={skill.url}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                ></a>
+                <a href={skill.url} target="_blank" rel=" noopener"></a>
                 <div className="inner">
                   <img
                     src={skill.image}

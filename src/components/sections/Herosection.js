@@ -55,7 +55,7 @@ function Herosection(props) {
               <a
                 href="https://www.linkedin.com/in/palvarezimaz/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener "
               >
                 <i className="fab fa-linkedin"></i>
               </a>
@@ -64,7 +64,7 @@ function Herosection(props) {
               <a
                 href="https://github.com/palvarezimaz"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener "
               >
                 <i className="fab fa-github"></i>
               </a>

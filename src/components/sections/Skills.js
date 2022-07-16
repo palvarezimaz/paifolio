@@ -54,11 +54,7 @@ function Skills() {
             <div className="col-md-3 col-6" key={skillSet.id}>
               <div className="skill-item">
                 <div className="inner">
-                  <a
-                    href={skillSet.url}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  ></a>
+                  <a href={skillSet.url} target="_blank" rel=" noopener"></a>
                   <img src={skillSet.image} alt="css" />
                 </div>
               </div>
