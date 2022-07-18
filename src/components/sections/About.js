@@ -26,6 +26,7 @@ function About() {
               <div className="row">
                 <div className="col-md-12">
                   <p>{aboutContent.content}</p>
+
                   <div className="mt-3">
                     <a
                       href="./files/Alvarez_Imaz_Pablo_resume_221007.pdf"
@@ -35,7 +36,7 @@ function About() {
                       Check my Resume
                     </a>
                   </div>
-                  <div className="mt-3">
+                  {/* <div className="mt-3">
                     <a
                       href="https://www.youtube.com/watch?v=-z3QqV3oYNs"
                       target="_blank"
@@ -44,7 +45,7 @@ function About() {
                     >
                       Video Profile
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -80,7 +80,7 @@ function Projects() {
                   </a>
                 </div>
               </div> */}
-              <div className=" btn-group col-md-6 col-sm-6 grid-item ">
+              <div className=" btn-group grid-item ">
                 <div className=" mx-auto align -middle" aria-current="page">
                   <a
                     href={item.demo}

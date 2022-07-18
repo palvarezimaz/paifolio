@@ -99,8 +99,10 @@
 }
 
 .btn-group a {
-  margin: 0 5px;
-  align-items: center;
-  width: 100%;
-  position: relative;
+  [class*='col-'] {
+    margin: 0 10px;
+    align-items: center;
+    width: 100%;
+    // position: relative;
+  }
 }
