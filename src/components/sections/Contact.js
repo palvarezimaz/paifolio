@@ -18,19 +18,19 @@ function Contact() {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
-      setMessage('Name is required');
+      setMessage('A Name is required');
     } else if (!formdata.email) {
       setError(true);
-      setMessage('Email is required');
+      setMessage('An Email is required');
     } else if (!formdata.subject) {
       setError(true);
-      setMessage('Subject is required');
+      setMessage('A Subject is required');
     } else if (!formdata.message) {
       setError(true);
-      setMessage('Message is required');
+      setMessage('A Message is required');
     } else {
       setError(false);
-      setMessage('You message has been sent!!!');
+      setMessage('Your message has been sent!!!');
       send(
         process.env.REACT_APP_EMAILSERVICEID,
         process.env.REACT_APP_EMAILTEMPLATEID,
