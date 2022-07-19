@@ -8,6 +8,8 @@ const aboutContent = {
     "Hi there! I am Pablo Alvarez Imaz, a software developer based in Melbourne, Australia. I'm a tech lover with a strong education and philosophy background, plus extensive workforce experience. I enjoy exploring ideas, facing technical challenges, and mountain climbing. Let's get in touch",
 };
 
+console.log('Hi! If you can see this, we understand each other ;-)');
+
 function About() {
   return (
     <section id="about">
