@@ -3,7 +3,7 @@ import Pagetitle from '../elements/Pagetitle';
 
 const aboutContent = {
   name: 'Pablo Alvarez Imaz',
-  avatarImage: './images/alvarezimazpablo-about.webp',
+  avatarImage: './images/alvarezimazpablo-about.png',
   content:
     "Hi there! I am Pablo Alvarez Imaz, a software developer based in Melbourne, Australia. I'm a tech lover with a strong education and philosophy background, plus extensive workforce experience. I enjoy exploring ideas, facing technical challenges, and mountain climbing. Let's get in touch!",
 };
