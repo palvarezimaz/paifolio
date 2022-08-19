@@ -31,7 +31,7 @@ function About() {
 
                   <div className="mt-3">
                     <a
-                      href="./files/Alvarez_Imaz_Pablo_resume_221007.pdf"
+                      href="./files/Alvarez_Imaz_Pablo_resume.pdf"
                       target="_blank"
                       className="btn btn-default"
                     >
