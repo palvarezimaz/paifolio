@@ -5,7 +5,7 @@ import Header from '../components/layouts/Header';
 import About from '../components/sections/About';
 import SkillsDark from '../components/sections/SkillsDark';
 import Contact from '../components/sections/Contact';
-import History from '../components/sections/History';
+
 import Herosection from '../components/sections/Herosection';
 import Projects from '../components/sections/Projects';
 
@@ -47,9 +47,6 @@ function HomepageDark() {
         <Element name="section-projects">
           <Projects />
         </Element>
-        {/* <Element name="section-History">
-          <History />
-        </Element> */}
 
         <Element name="section-contact">
           <Contact />

@@ -6,7 +6,6 @@ import Herosection from '../components/sections/Herosection';
 import About from '../components/sections/About';
 import Skills from '../components/sections/Skills';
 import Projects from '../components/sections/Projects';
-import History from '../components/sections/History';
 import Contact from '../components/sections/Contact';
 
 function Homepage() {
@@ -46,9 +45,6 @@ function Homepage() {
         <Element name="section-projects">
           <Projects />
         </Element>
-        {/* <Element name="section-History">
-          <History />
-        </Element> */}
         <Element name="section-contact">
           <Contact />
         </Element>

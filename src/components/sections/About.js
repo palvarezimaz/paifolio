@@ -38,16 +38,6 @@ function About() {
                       Check my Resume
                     </a>
                   </div>
-                  {/* <div className="mt-3">
-                    <a
-                      href="https://www.youtube.com/watch?v=-z3QqV3oYNs"
-                      target="_blank"
-                      rel="noopener"
-                      className="btn btn-default"
-                    >
-                      Video Profile
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>

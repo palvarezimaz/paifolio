@@ -43,10 +43,8 @@ function Herosection(props) {
               ]}
               typeSpeed={80}
               backSpeed={40}
-              // attr="value"
               loop
             >
-              {/* <label value></label> */}
             </Typed>
           </p>
 

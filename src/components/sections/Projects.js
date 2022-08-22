@@ -58,28 +58,6 @@ function Projects() {
           {getAllItems.map((item) => (
             <div className="col-md-6 col-sm-6 grid-item" key={item.id}>
               <Portfolio portfolio={item} />
-              {/* <div className="row justify-content-center">
-                <div className="mt-3 col-4">
-                  <a
-                    href={item.demo}
-                    target="_blank"
-                    rel=""
-                    className="btn btn-default"
-                  >
-                    Demo
-                  </a>
-                </div>
-                <div className="mt-3 col-4">
-                  <a
-                    href={item.github}
-                    target="_blank"
-                    rel=""
-                    className="btn btn-default"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div> */}
               <div className=" btn-group grid-item ">
                 <div className=" mx-auto align -middle" aria-current="page">
                   <a

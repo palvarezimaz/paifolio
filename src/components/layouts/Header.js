@@ -85,18 +85,6 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-layers"></i>Projects
               </Link>
             </li>
-            {/* <li>
-              <Link
-                activeClass="active"
-                to="section-History"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-graduation"></i>Work Experience
-              </Link>
-            </li> */}
-
             <li>
               <Link
                 activeClass="active"
