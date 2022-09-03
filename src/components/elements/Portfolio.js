@@ -1,15 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, link, description, techstack } = portfolio;
-  const [toggler, setToggler] = useState(false);
-
-  const handleLightbox = (e) => {
-    if (!link) {
-      e.preventDefault();
-      setToggler(!toggler);
-    }
-  };
+  const { category, title, image, description, techstack } = portfolio;
 
   return (
     <div className="portfolio-item rounded shadow-dark">

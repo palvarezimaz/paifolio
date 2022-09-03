@@ -488,10 +488,11 @@ select.portfolio-filter-mobile {
 
 .scroll-down {
   position: relative;
-  margin-top: 30px;
+  margin-top: 35px;
   left: 0;
   width: 100%;
   z-index: 1;
+  font-weight: bold;
 
   button {
     background: transparent;
