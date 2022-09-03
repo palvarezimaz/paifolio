@@ -82,14 +82,14 @@
 }
 
 .btn-sm {
-  padding: 17px 16px;
-  font-size: 12px;
+  padding: 14px 13px;
+  font-size: 10px;
   line-height: 0;
 }
 
 .btn-xs {
-  padding: 12px 10px;
-  font-size: 12px;
+  padding: 10px 18px;
+  font-size: 7px;
   line-height: 0;
 }
 
@@ -106,4 +106,9 @@
     width: 100%;
     // position: relative;
   }
+}
+
+.btn-layout {
+  display: grid;
+  justify-content: space-evenly;
 }

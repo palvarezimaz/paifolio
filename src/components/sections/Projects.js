@@ -56,7 +56,10 @@ function Projects() {
 
         <div className="row portfolio-wrapper">
           {getAllItems.map((item) => (
-            <div className="col-md-6 col-sm-6 grid-item" key={item.id}>
+            <div
+              className="col-md-6 col-sm-6 grid-item btn-layout"
+              key={item.id}
+            >
               <Portfolio portfolio={item} />
               <div className=" btn-group grid-item ">
                 <div className=" mx-auto align -middle" aria-current="page">
