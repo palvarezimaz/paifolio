@@ -6,6 +6,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'animate.css/animate.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga4';
+
+const TRACKING_ID = process.env.REACT_APP_TRACKING_ID;
+ReactGA.initialize(TRACKING_ID);
 
 ReactDOM.render(
   <React.StrictMode>

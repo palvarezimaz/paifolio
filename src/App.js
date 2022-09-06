@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -9,8 +9,8 @@ import RouteChangeTracker from './helpers/RouteChangeTracker';
 
 import './App.scss';
 
-const TRACKING_ID = 'G-9TPCV8506T';
-ReactGA.initialize(TRACKING_ID);
+// const TRACKING_ID = process.env.REACT_APP_TRACKING_ID;
+// ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
