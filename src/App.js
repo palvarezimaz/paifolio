@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactGA from 'react-ga4';
+// import ReactGA from 'react-ga4';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Homepage from './pages/Homepage';
 
-import RouteChangeTracker from './helpers/RouteChangeTracker';
+// import RouteChangeTracker from './helpers/RouteChangeTracker';
 
 import './App.scss';
 
@@ -20,9 +20,9 @@ function App() {
           <Homepage />
         </Route>
       </Switch>
-      <div>
+      {/* <div>
         <RouteChangeTracker />
-      </div>
+      </div> */}
     </BrowserRouter>
   );
 }
