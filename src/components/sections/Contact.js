@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { send } from 'emailjs-com';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Pagetitle from '../elements/Pagetitle';
+import ReCaptchaV2 from 'react-google-recaptcha';
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -154,6 +155,7 @@ function Contact() {
                   </div>
                 </div>
               </div>
+              <ReCaptchaV2 sitekey={process.env.REACT_APP_SITE_KEY} />
               <button
                 type="submit"
                 name="submit"
