@@ -2,7 +2,13 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../elements/Logo';
 
-function Header({ light, logoSource, toggleMenu, headerToggler }) {
+function Header({
+  light,
+  logoSource,
+  toggleMenu,
+  headerToggler,
+  setToggleMenu,
+}) {
   const handleClasses = () => {
     let classes = 'desktop-header-1 d-flex align-items-start flex-column';
     if (light & toggleMenu) {
@@ -25,6 +31,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
     }
     return classes;
   };
+
   return (
     <>
       <header className={handleMobileClasses()}>
@@ -48,6 +55,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setToggleMenu(false)}
               >
                 <i className="icon-home"></i>Home
               </Link>
@@ -59,6 +67,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setToggleMenu(false)}
               >
                 <i className="icon-user-following"></i>About
               </Link>
@@ -70,6 +79,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setToggleMenu(false)}
               >
                 <i className="icon-magic-wand"></i>Skills
               </Link>
@@ -81,6 +91,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setToggleMenu(false)}
               >
                 <i className="icon-layers"></i>Projects
               </Link>
@@ -92,6 +103,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 spy={true}
                 smooth={true}
                 duration={500}
+                onClick={() => setToggleMenu(false)}
               >
                 <i className="icon-bubbles"></i>Contact
               </Link>

@@ -29,6 +29,7 @@ function Homepage() {
         logoSource="./images/logo.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
+        setToggleMenu={setToggleMenu}
       />
       <main className={toggleMenu ? 'content open' : 'content'}>
         <Element name="section-home">
