@@ -180,8 +180,8 @@ function Skills() {
           dotListClass=""
           // dotListClass="custom-dot-list-style"
           focusOnSelect={false}
-          itemClass=""
-          // itemClass="carousel-item-padding-40-px"
+          // itemClass=""
+          itemClass="carousel-item-padding-40-px"
           minimumTouchDrag={80}
           pauseOnHover
           renderArrowsWhenDisabled={false}
@@ -207,8 +207,8 @@ function Skills() {
                   <img
                     src={skill.image}
                     alt={skill.alt}
-                    width="150px"
-                    height="150px"
+                    // width="150px"
+                    // height="150px"
                   />
                   <a
                     className="mouse-wrapper"
@@ -216,7 +216,7 @@ function Skills() {
                     target="_blank"
                     rel=" noopener"
                   >
-                    {skill.name}
+                    <h4>{skill.name}</h4>
                   </a>
                 </div>
               </div>
