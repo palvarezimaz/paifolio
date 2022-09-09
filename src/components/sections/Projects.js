@@ -79,7 +79,7 @@ function Projects() {
                     rel=""
                     className="btn btn-default"
                   >
-                    GitHub
+                    Code
                   </a>
                 </div>
               </div>

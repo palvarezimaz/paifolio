@@ -45,7 +45,7 @@ const skillSet = [
     id: 4,
     alt: 'NodeJS',
     name: 'NodeJS',
-    image: './images/skill-nodejs.svg',
+    image: './images/skill-node2.png',
     url: 'https://nodejs.org',
   },
   {
@@ -55,13 +55,13 @@ const skillSet = [
     image: './images/skill-postgresql.svg',
     url: 'https://www.postgresql.org',
   },
-  {
-    id: 6,
-    alt: 'ExpressJS',
-    name: 'ExpressJS',
-    image: './images/skill-expressJS.svg',
-    url: 'https://expressjs.com',
-  },
+  // {
+  //   id: 6,
+  //   alt: 'ExpressJS',
+  //   name: 'ExpressJS',
+  //   image: './images/skill-expressJS.png',
+  //   url: 'https://expressjs.com',
+  // },
 
   {
     id: 7,
