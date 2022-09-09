@@ -85,7 +85,7 @@ function Contact() {
               >
                 <p>
                   Don't like forms? Send me an{' '}
-                  <a href="mailto:palvarezimaz@gmail.com">email</a>. 👋
+                  <a href="mailto:info@pabloai.net">email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>
