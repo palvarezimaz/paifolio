@@ -213,17 +213,6 @@ function Skills() {
                   <img
                     src={skill.image}
                     alt={skill.alt}
-<<<<<<< HEAD
-                    width="70px"
-                    height="70px"
-                    onFocus={skill.name}
-                  />
-                  {/* <p>
-                    <a href={skill.url} target="_blank" rel=" noopener">
-                      {skill.name}
-                    </a>
-                  </p> */}
-=======
                     // width="150px"
                     // height="150px"
                   />
@@ -235,7 +224,6 @@ function Skills() {
                   >
                     <h4>{skill.name}</h4>
                   </a>
->>>>>>> carrousel
                 </div>
               </div>
             </div>

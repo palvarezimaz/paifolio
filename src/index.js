@@ -13,9 +13,7 @@ ReactGA.initialize(TRACKING_ID);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
