@@ -32,105 +32,111 @@ function Skills() {
       id: 1,
       alt: 'CSS',
       name: 'CSS',
-      image: './images/skill-css3.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
       url: 'https://www.w3schools.com/css/',
     },
     {
       id: 2,
       alt: 'HTML',
       name: 'HTML',
-      image: './images/skill-html.png',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
       url: 'https://www.w3schools.com/html/',
     },
     {
       id: 3,
       alt: 'JS',
       name: 'JavaScript',
-      image: './images/skill-js.png',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
       url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     },
     {
       id: 4,
       alt: 'jQuery',
       name: 'jQuery',
-      image: './images/skill-jquery.png',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg',
       url: 'https://jquery.com/',
     },
     {
       id: 5,
       alt: 'NodeJS',
       name: 'NodeJS',
-      image: './images/skill-nodejs.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
       url: 'https://nodejs.org',
     },
     {
       id: 6,
       alt: 'ExpressJS',
       name: 'ExpressJS',
-      image: './images/skill-expressJS.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg',
       url: 'https://expressjs.com',
     },
     {
       id: 7,
       alt: 'ReactJS',
       name: 'ReactJS',
-      image: './images/skill-react.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
       url: 'https://reactjs.org/',
     },
     {
       id: 8,
       alt: 'Socket.io',
       name: 'Socket.io',
-      image: './images/skill-socketio.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg',
       url: 'https://socket.io/',
     },
     {
       id: 9,
-      alt: 'Postman',
-      name: 'Postman',
-      image: './images/skill-postman.png',
-      url: 'https://postman.com',
-    },
-    {
-      id: 10,
-      alt: 'JestJS',
-      name: 'JestJS',
-      image: './images/skill-jestj.svg',
+      alt: 'Jest',
+      name: 'Jest',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
       url: 'https://jestjs.io',
     },
     {
-      id: 11,
+      id: 10,
       alt: 'Ruby',
       name: 'Ruby',
-      image: './images/skill-ruby.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg',
       url: 'https://www.ruby-lang.org/en',
     },
     {
-      id: 12,
+      id: 11,
       alt: 'PostgreSQL',
       name: 'PostgreSQL',
-      image: './images/skill-postgresql.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
       url: 'https://www.postgresql.org',
     },
     {
-      id: 13,
+      id: 12,
       alt: 'Git',
       name: 'Git',
-      image: './images/skill-git.svg',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
       url: 'https://git-scm.com/',
     },
+    // {
+    //   id: 13,
+    //   alt: 'GitHub',
+    //   name: 'GitHub',
+    //   image: './images/skill-github.svg',
+    //   url: 'https://github.com/',
+    // },
     {
-      id: 14,
-      alt: 'GitHub',
-      name: 'GitHub',
-      image: './images/skill-github.svg',
-      url: 'https://github.com/',
-    },
-    {
-      id: 15,
+      id: 13,
       alt: 'Docker',
       name: 'Docker',
-      image: './images/skill-docker.png',
+      image:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
       url: 'https://www.docker.com/',
     },
     // {
@@ -158,7 +164,7 @@ function Skills() {
         <Pagetitle title="Skills" />
         <Carousel
           swipeable={true}
-          draggable={false}
+          draggable={true}
           showDots={false}
           responsive={responsive}
           ssr={true}
@@ -167,7 +173,7 @@ function Skills() {
           autoPlaySpeed={1800}
           keyBoardControl={true}
           customTransition="all .5"
-          // transitionDuration={00}
+          // transitionDuration={100}
           centerMode={true}
           containerClass="carousel-container"
           removeArrowOnDeviceType={['tablet', 'mobile']}
@@ -179,9 +185,9 @@ function Skills() {
           // containerClass="container-with-dots"
           dotListClass=""
           // dotListClass="custom-dot-list-style"
-          focusOnSelect={false}
+          // focusOnSelect={true}
           // itemClass=""
-          itemClass="carousel-item-padding-40-px"
+          // itemClass="carousel-item-padding-40-px"
           minimumTouchDrag={80}
           pauseOnHover
           renderArrowsWhenDisabled={false}
@@ -192,13 +198,13 @@ function Skills() {
           slidesToSlide={2}
           rewind={false}
           rewindWithAnimation={false}
-          rtl={false}
+          rtl={true}
           shouldResetAutoplay
         >
           {/* <div className="row align-items-start justify-content-evenly"> */}
           {skillSet.map((skill) => (
             <div
-              className="
+              className="carousel-skills 
               row align-items-start justify-content-evenly col-md-2 col-2"
               key={skill.id}
             >
