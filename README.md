@@ -1,5 +1,5 @@
 Portfolio page
 
-Visit the online version at 
+Visit the online version at
 
-pabloai.net
+<a href="pabloai.net" target="_blank" rel="noreferrer">pabloai.net</a>

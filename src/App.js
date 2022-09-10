@@ -1,6 +1,8 @@
 import React from 'react';
+
 import ReactGA from 'react-ga4';
 // import TagManager from 'react-gtm-module';
+
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -22,6 +24,7 @@ ReactGA.initialize(TRACKING_ID);
 // TagManager.initialize(tagManagerArgs);
 
 function App() {
+  // usePageTracking();
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
