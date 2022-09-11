@@ -12,22 +12,11 @@ function Contact() {
     message: '',
   });
 
-  // function onChange(value) {
-  //   console.log('Captcha value:', value);
-  // }
-
   const [error, setError] = useState(false);
   const [message, setMessage] = useState('');
-  // const captchaRef = useRef(null);
-
-  // const token = captchaRef.current.getValue();
 
   const submitHandler = (event) => {
     event.preventDefault();
-
-    //   const token = captchaRef.current.getValue();
-    //   captchaRef.current.reset();
-
     if (!formdata.name) {
       setError(true);
       setMessage('A Name is required');
@@ -56,137 +45,133 @@ function Contact() {
           console.log('There has been an error', err);
         });
     }
+  };
 
-    const handleChange = (event) => {
-      setFormdata({
-        ...formdata,
-        [event.currentTarget.name]: event.currentTarget.value,
-      });
-    };
+  const handleChange = (event) => {
+    setFormdata({
+      ...formdata,
+      [event.currentTarget.name]: event.currentTarget.value,
+    });
+  };
 
-    function handleAlerts() {
-      if (error && message) {
-        return <div className="alert alert-danger mt-4">{message}</div>;
-      } else if (!error && message) {
-        return <div className="alert alert-success mt-4">{message}</div>;
-      } else {
-        return null;
-      }
+  function handleAlerts() {
+    if (error && message) {
+      return <div className="alert alert-danger mt-4">{message}</div>;
+    } else if (!error && message) {
+      return <div className="alert alert-success mt-4">{message}</div>;
+    } else {
+      return null;
     }
+  }
 
-    return (
-      <section id="contact">
-        <div className="container">
-          <Pagetitle title="Get in Touch..." />
+  return (
+    <section id="contact">
+      <div className="container">
+        <Pagetitle title="Get in Touch..." />
 
-          <div className="row">
-            <div className="col-md-4">
-              <div className="contact-info">
-                <ScrollAnimation
-                  animateIn="fadeInUp"
-                  animateOut="fadeInOut"
-                  animateOnce={true}
-                >
-                  <h3>And I will get right back at you ASAP.</h3>
-                </ScrollAnimation>
-                <ScrollAnimation
-                  animateIn="fadeInUp"
-                  animateOut="fadeInOut"
-                  animateOnce={true}
-                >
-                  <p>
-                    Don't like forms? Send me an{' '}
-                    <a href="mailto:info@pabloai.net">email</a>. 👋
-                  </p>
-                </ScrollAnimation>
-              </div>
-            </div>
-
-            <div className="col-md-8">
-              <form
-                id="contact-form"
-                className="contact-form mt-6"
-                onSubmit={submitHandler}
+        <div className="row">
+          <div className="col-md-4">
+            <div className="contact-info">
+              <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOut="fadeInOut"
+                animateOnce={true}
               >
-                <div className="row">
-                  <div className="column col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="name"
-                        id="InputName"
-                        placeholder="Your name"
-                        onChange={handleChange}
-                        value={formdata.name}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="column col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        className="form-control"
-                        id="InputEmail"
-                        name="email"
-                        placeholder="Email address"
-                        onChange={handleChange}
-                        value={formdata.email}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="column col-md-12">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        id="InputSubject"
-                        name="subject"
-                        placeholder="Subject"
-                        onChange={handleChange}
-                        value={formdata.subject}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="column col-md-12">
-                    <div className="form-group">
-                      <textarea
-                        name="message"
-                        id="InputMessage"
-                        className="form-control"
-                        rows="5"
-                        placeholder="Message"
-                        onChange={handleChange}
-                        value={formdata.message}
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-                {/* <ReCaptchaV2
-                sitekey={process.env.REACT_APP_SITE_KEY}
-                onChange={onChange}
-                ref={captchaRef}
-              /> */}
-                <button
-                  type="submit"
-                  name="submit"
-                  id="submit"
-                  value="Submit"
-                  className="btn btn-default"
-                >
-                  Send Message
-                </button>
-              </form>
-              {handleAlerts()}
+                <h3>And I will get right back at you ASAP.</h3>
+              </ScrollAnimation>
+              <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOut="fadeInOut"
+                animateOnce={true}
+              >
+                <p>
+                  Don't like forms? Send me an{' '}
+                  <a href="mailto:info@pabloai.net">email</a>. 👋
+                </p>
+              </ScrollAnimation>
             </div>
           </div>
+
+          <div className="col-md-8">
+            <form
+              id="contact-form"
+              className="contact-form mt-6"
+              onSubmit={submitHandler}
+            >
+              <div className="row">
+                <div className="column col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="name"
+                      id="InputName"
+                      placeholder="Your name"
+                      onChange={handleChange}
+                      value={formdata.name}
+                    />
+                  </div>
+                </div>
+
+                <div className="column col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="InputEmail"
+                      name="email"
+                      placeholder="Email address"
+                      onChange={handleChange}
+                      value={formdata.email}
+                    />
+                  </div>
+                </div>
+
+                <div className="column col-md-12">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="InputSubject"
+                      name="subject"
+                      placeholder="Subject"
+                      onChange={handleChange}
+                      value={formdata.subject}
+                    />
+                  </div>
+                </div>
+
+                <div className="column col-md-12">
+                  <div className="form-group">
+                    <textarea
+                      name="message"
+                      id="InputMessage"
+                      className="form-control"
+                      rows="5"
+                      placeholder="Message"
+                      onChange={handleChange}
+                      value={formdata.message}
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              {/* <ReCaptchaV2 sitekey={process.env.REACT_APP_SITE_KEY} /> */}
+              <button
+                type="submit"
+                name="submit"
+                id="submit"
+                value="Submit"
+                className="btn btn-default"
+              >
+                Send Message
+              </button>
+            </form>
+            {handleAlerts()}
+          </div>
         </div>
-      </section>
-    );
-  };
+      </div>
+    </section>
+  );
 }
 
 export default Contact;
