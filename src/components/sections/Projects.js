@@ -44,6 +44,16 @@ const allData = [
     demo: 'https://palvarezimaz.github.io/tic-tac-toe/',
     github: 'https://github.com/palvarezimaz/tic-tac-toe',
   },
+  {
+    id: 5,
+    title: 'APIQUINAS',
+    category: 'Own project',
+    image: './',
+    description: 'Quote API service',
+    techstack: 'JS, Express',
+    demo: 'https://apiquinas.herokuapp.com/',
+    github: 'https://github.com/palvarezimaz/apiquinas',
+  },
 ];
 
 function Projects() {
