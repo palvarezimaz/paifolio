@@ -16,7 +16,7 @@ const allData = [
   },
   {
     id: 2,
-    title: 'Sweeter, a tweeter clone',
+    title: 'Tweeter clone',
     category: 'GA project',
     image: './images/projects/3-sweeter-clone.webp',
     description: 'SPA App',
@@ -26,7 +26,7 @@ const allData = [
   },
   {
     id: 3,
-    title: 'The Dead Cryptos Archives',
+    title: 'Cryptos Archives',
     category: 'GA project',
     image: './images/projects/2-cryptos.webp',
     description: 'CRUD App',
@@ -36,10 +36,10 @@ const allData = [
   },
   {
     id: 4,
-    title: "Monkey Island's Tic-Tac-Toe",
+    title: "Monkey Island's TTT",
     category: 'GA project',
     image: './images/projects/1-monkeytoe.webp',
-    description: 'A retro take with score tracking and audio effects',
+    description: 'A retro tic-tac-toe ft. score tracking and audio effects',
     techstack: 'JS, CSS and HTML',
     demo: 'https://palvarezimaz.github.io/tic-tac-toe/',
     github: 'https://github.com/palvarezimaz/tic-tac-toe',
