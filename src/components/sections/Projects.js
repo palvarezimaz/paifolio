@@ -96,6 +96,7 @@ function Projects() {
             </div>
           ))}
         </div>
+        <div className="spacer" data-height="70"></div>
       </div>
     </section>
   );

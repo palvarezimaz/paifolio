@@ -7,7 +7,6 @@ import 'react-multi-carousel/lib/styles.css';
 function Skills() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
       slidesToSlides: 3,
@@ -20,10 +19,12 @@ function Skills() {
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
+      slidesToSlides: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
+      slidesToSlides: 2,
     },
   };
 
@@ -47,7 +48,7 @@ function Skills() {
     {
       id: 3,
       alt: 'JS',
-      name: 'JavaScript',
+      name: 'JS',
       image:
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
       url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
@@ -70,8 +71,8 @@ function Skills() {
     },
     {
       id: 6,
-      alt: 'ExpressJS',
-      name: 'ExpressJS',
+      alt: 'Express',
+      name: 'Express',
       image:
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg',
       url: 'https://expressjs.com',
@@ -110,8 +111,8 @@ function Skills() {
     },
     {
       id: 11,
-      alt: 'PostgreSQL',
-      name: 'PostgreSQL',
+      alt: 'Postgres',
+      name: 'Postgres',
       image:
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
       url: 'https://www.postgresql.org',
@@ -159,7 +160,7 @@ function Skills() {
   ];
 
   return (
-    <div id="skilllogos">
+    <section id="Skills">
       <div className="container">
         <Pagetitle title="Skills" />
         <Carousel
@@ -195,32 +196,26 @@ function Skills() {
           renderDotsOutside={false}
           ////////////
           sliderClass=""
-          slidesToSlide={2}
+          slidesToSlide={1}
           rewind={false}
           rewindWithAnimation={false}
           rtl={true}
           shouldResetAutoplay
         >
-          {/* <div className="row align-items-start justify-content-evenly"> */}
+          {/* //  justify-content-evenly this goes into classname line 208 */}
           {skillSet.map((skill) => (
             <div
-              className="carousel-skills 
-              row align-items-start justify-content-evenly col-md-2 col-2"
+              className="carousel-skills row align-items-start justify-content-evenly col-md-2 col-2"
               key={skill.id}
             >
               <div className="skill-item">
                 <div className="inner">
-                  <img
-                    src={skill.image}
-                    alt={skill.alt}
-                    // width="150px"
-                    // height="150px"
-                  />
+                  <img src={skill.image} alt={skill.alt} />
                   <a
                     className="mouse-wrapper"
                     href={skill.url}
                     target="_blank"
-                    rel=" noopener"
+                    rel="noopener"
                   >
                     <h4>{skill.name}</h4>
                   </a>
@@ -228,10 +223,10 @@ function Skills() {
               </div>
             </div>
           ))}
-          {/* </div> */}
         </Carousel>
+        <div className="spacer" data-height="70"></div>
       </div>
-    </div>
+    </section>
   );
 }
 

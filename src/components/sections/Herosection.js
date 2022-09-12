@@ -44,8 +44,7 @@ function Herosection(props) {
               typeSpeed={80}
               backSpeed={40}
               loop
-            >
-            </Typed>
+            ></Typed>
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
@@ -267,6 +266,7 @@ function Herosection(props) {
           </svg>
         </div>
       </div>
+      {/* <div className="spacer" data-height="70"></div> */}
     </section>
   );
 }
