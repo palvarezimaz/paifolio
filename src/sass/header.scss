@@ -312,7 +312,7 @@ header.desktop-header-2 {
 header.mobile-header-1 {
   background: $colordark;
   display: none;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   @include transition(0.3s);
 
   &.open {
