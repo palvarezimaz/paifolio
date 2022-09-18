@@ -50,7 +50,7 @@ const allData = [
     category: 'Own project',
     image: './images/projects/5-apiquinas.webp',
     description: 'Quote API service',
-    techstack: 'JS, Express',
+    techstack: 'JS, Express, Docker',
     demo: 'https://apiquinas.herokuapp.com/',
     github: 'https://github.com/palvarezimaz/apiquinas',
   },
