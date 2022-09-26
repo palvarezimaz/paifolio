@@ -9,7 +9,7 @@ const allData = [
     title: 'ChatApp',
     category: 'GA project',
     image: './images/projects/4-chatapp.webp',
-    description: 'A WebSocket-based instant messanger',
+    description: 'A WebSocket-based instant messenger',
     techstack: 'React, Socket.io and Express',
     demo: 'https://paichatapp.herokuapp.com/',
     github: 'https://github.com/palvarezimaz/chatapp-server',
