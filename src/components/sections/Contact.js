@@ -146,9 +146,9 @@ function Contact() {
                     <textarea
                       name="message"
                       id="InputMessage"
-                      className="form-control"
+                      className="form-control message-input"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="Write your message here..."
                       onChange={handleChange}
                       value={formdata.message}
                     ></textarea>
