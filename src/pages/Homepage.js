@@ -37,9 +37,11 @@ function Homepage() {
             <Herosection />
           </ReactCursorPosition>
         </Element>
+
         <Element name="section-about">
           <About />
         </Element>
+
         <Element name="section-skills">
           <Skills />
         </Element>
