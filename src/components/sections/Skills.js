@@ -140,6 +140,28 @@ function Skills() {
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
       url: 'https://www.docker.com/',
     },
+    {
+      id: 14,
+      alt: 'Typescript',
+      name: 'Typescript',
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+      url: 'https://typescript.org',
+    },
+    {
+      id: 15,
+      alt: 'Next.js',
+      name: 'Next.js',
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+      url: 'http://nextjs.org',
+    },
+    {
+      id: 16,
+      alt: 'Python',
+      name: 'Python',
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      url: 'https://python.org',
+    },
+
     // {
     //   id: 16,
     //   alt: 'Heroku',
