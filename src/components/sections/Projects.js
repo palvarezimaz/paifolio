@@ -38,7 +38,7 @@ const allData = [
     id: 4,
     title: "The Garden of Earthly Delights",
     category: 'Fun Project',
-    image: './images/projects/1-monkeytoe.webp',
+    image: './images/projects/6-garden.webp',
     description: 'A collection of games and Apps',
     techstack: 'ReactJS & styled-components',
     demo: 'https://garden-of-earthly-delights.surge.sh/',
