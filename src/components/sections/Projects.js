@@ -36,13 +36,13 @@ const allData = [
   },
   {
     id: 4,
-    title: "Monkey Island's TTT",
-    category: 'GA project',
+    title: "The Garden of Earthly Delights",
+    category: 'Fun Project',
     image: './images/projects/1-monkeytoe.webp',
-    description: 'A retro tic-tac-toe ft. score tracking and audio effects',
-    techstack: 'JS, CSS and HTML',
-    demo: 'https://palvarezimaz.github.io/tic-tac-toe/',
-    github: 'https://github.com/palvarezimaz/tic-tac-toe',
+    description: 'A collection of games and Apps',
+    techstack: 'ReactJS & styled-components',
+    demo: 'https://garden-of-earthly-delights.surge.sh/',
+    github: 'https://github.com/palvarezimaz/garden-of-earthly-delights',
   },
   {
     id: 5,
@@ -53,6 +53,16 @@ const allData = [
     techstack: 'JS, Express, Docker',
     demo: 'https://apiquinas.herokuapp.com/',
     github: 'https://github.com/palvarezimaz/apiquinas',
+  },
+  {
+    id: 6,
+    title: "Monkey Island's TTT",
+    category: 'GA project',
+    image: './images/projects/1-monkeytoe.webp',
+    description: 'A retro tic-tac-toe ft. score tracking and audio effects',
+    techstack: 'JS, CSS and HTML',
+    demo: 'https://palvarezimaz.github.io/tic-tac-toe/',
+    github: 'https://github.com/palvarezimaz/tic-tac-toe',
   },
 ];
 
