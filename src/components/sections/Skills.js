@@ -125,13 +125,6 @@ function Skills() {
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
       url: 'https://git-scm.com/',
     },
-    // {
-    //   id: 13,
-    //   alt: 'GitHub',
-    //   name: 'GitHub',
-    //   image: './images/skill-github.svg',
-    //   url: 'https://github.com/',
-    // },
     {
       id: 13,
       alt: 'Docker',
@@ -161,24 +154,6 @@ function Skills() {
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
       url: 'https://python.org',
     },
-
-    // {
-    //   id: 16,
-    //   alt: 'Heroku',
-    //   name: 'Heroku',
-    //   image: './images/skill-heroku.svg',
-    //   url: 'https://heroku.com',
-    // },
-    // {
-    //   id: 17,
-    //   alt: 'Surge',
-    //   name: 'Surge',
-    //   image: './images/skill-surge3.svg',
-    //   url: 'https://surge.sh/',
-    // },
-
-    // heroku - https://heroku.com
-    // surge - https://surge.sh/
   ];
 
   return (
@@ -196,27 +171,18 @@ function Skills() {
           autoPlaySpeed={1800}
           keyBoardControl={true}
           customTransition="all .5"
-          // transitionDuration={100}
           centerMode={true}
           containerClass="carousel-container"
           removeArrowOnDeviceType={['tablet', 'mobile']}
           additionalTransfrom={0}
           arrows={false}
-          // customLeftArrow={<CustomLeftArrow />}
-          // customRightArrow={<CustomRightArrow />}
           className=""
-          // containerClass="container-with-dots"
           dotListClass=""
-          // dotListClass="custom-dot-list-style"
-          // focusOnSelect={true}
-          // itemClass=""
-          // itemClass="carousel-item-padding-40-px"
           minimumTouchDrag={80}
           pauseOnHover
           renderArrowsWhenDisabled={false}
           renderButtonGroupOutside={false}
           renderDotsOutside={false}
-          ////////////
           sliderClass=""
           slidesToSlide={1}
           rewind={false}
@@ -224,7 +190,6 @@ function Skills() {
           rtl={true}
           shouldResetAutoplay
         >
-          {/* //  justify-content-evenly this goes into classname line 208 */}
           {skillSet.map((skill) => (
             <div
               className="carousel-skills row align-items-start justify-content-evenly col-md-2 col-2"

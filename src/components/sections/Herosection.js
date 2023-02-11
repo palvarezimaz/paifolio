@@ -32,7 +32,6 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Pablo Alvarez Imaz</h1>
           <p>
-            {/* I'm a{' '} */}
             <Typed
               strings={[
                 ' ',
@@ -266,7 +265,6 @@ function Herosection(props) {
           </svg>
         </div>
       </div>
-      {/* <div className="spacer" data-height="70"></div> */}
     </section>
   );
 }
