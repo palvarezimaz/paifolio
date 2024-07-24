@@ -5,7 +5,7 @@ const aboutContent = {
   name: 'Pablo Alvarez Imaz',
   avatarImage: './images/alvarezimazpablo-about.png',
   content:
-    "Hi there! I am Pablo, a software developer based in Melbourne, Australia; a tech lover with a background in Education and CS. I also have extensive work experience in large Corporations and small start ups. I enjoy exploring ideas, facing technical challenges, and mountain climbing. Let's get in touch!",
+    "Hi there! I am Pablo, a software developer based in Melbourne, Australia; a problem solver with a background in Education and Philosophy. I also have extensive work experience in large Corporations and small start ups. I enjoy exploring ideas, team-working, and mountain climbing. Let's get in touch!",
 };
 
 console.log(
