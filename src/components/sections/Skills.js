@@ -154,6 +154,13 @@ function Skills() {
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
       url: 'https://python.org',
     },
+    {
+      id: 17,
+      alt: 'C#',
+      name: 'C#',
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+      url: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
+    },
   ];
 
   return (
