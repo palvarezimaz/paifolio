@@ -5,7 +5,7 @@ const aboutContent = {
   name: 'Pablo Alvarez Imaz',
   avatarImage: './images/alvarezimazpablo-about.png',
   content:
-    "Hi there! I am Pablo, a software developer based in Melbourne, Australia; a tech lover with a background in Education and CS. I also have extensive work experience in large Corporations and small start ups. I enjoy exploring ideas, facing technical challenges, and mountain climbing. Let's get in touch!",
+    "Hi there! I am Pablo, a software developer based in Melbourne, Australia; a tech lover with a background in Education. I also have extensive work experience in large Corporations and small start ups. I enjoy exploring ideas, facing technical challenges, and mountain climbing. Let's get in touch!",
 };
 
 console.log(
@@ -30,16 +30,6 @@ function About() {
               <div className="row">
                 <div className="col-md-12">
                   <p>{aboutContent.content}</p>
-
-                  <div className="mt-3">
-                    <a
-                      href="./files/Alvarez_Imaz_Pablo_resume.pdf"
-                      target="_blank"
-                      className="btn btn-default"
-                    >
-                      Check my Resume
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
