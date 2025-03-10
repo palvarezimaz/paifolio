@@ -21,7 +21,7 @@ const allData = [
     image: './images/projects/3-sweeter-clone.webp',
     description: 'SPA App',
     techstack: 'JS, Express, PostgreSQL',
-    demo: 'https://sweetersocialmedia.herokuapp.com/',
+    demo: 'https://github.com/palvarezimaz/social_media_app',
     github: 'https://github.com/palvarezimaz/social_media_app',
   },
   {

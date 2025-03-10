@@ -35,7 +35,7 @@ function Herosection(props) {
             <Typed
               strings={[
                 ' ',
-                'Junior Software Engineer ',
+                'Software Engineer ',
                 'Full-stack developer',
                 'Back-End',
                 'Front-End',
