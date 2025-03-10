@@ -51,7 +51,7 @@ const allData = [
     image: './images/projects/5-apiquinas.webp',
     description: 'Quote API service',
     techstack: 'JS, Express, Docker',
-    demo: 'https://apiquinas.herokuapp.com/',
+    demo: 'https://palvarezimaz.github.io/apiquinas/',
     github: 'https://github.com/palvarezimaz/apiquinas',
   },
   {
