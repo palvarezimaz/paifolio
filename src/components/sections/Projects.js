@@ -31,7 +31,7 @@ const allData = [
     image: './images/projects/2-cryptos.webp',
     description: 'CRUD App',
     techstack: 'Ruby, Sinatra and PostgreSQL',
-    demo: 'https://deadcryptos.herokuapp.com/',
+    demo: 'https://github.com/palvarezimaz/crude-app',
     github: 'https://github.com/palvarezimaz/crude-app',
   },
   {
