@@ -11,7 +11,7 @@ const allData = [
     image: './images/projects/4-chatapp.webp',
     description: 'A WebSocket-based instant messenger',
     techstack: 'React, Socket.io and Express',
-    demo: 'https://paichatapp.herokuapp.com/',
+    demo: 'https://palvarezimaz.github.io/chatapp-client/',
     github: 'https://github.com/palvarezimaz/chatapp-server',
   },
   {
